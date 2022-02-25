@@ -1,11 +1,22 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
+import './css/index.css'
+import { BrowserRouter } from 'react-router-dom'
+import { Routes, Route, Link } from 'react-router-dom'
+
 import Index from './pages/index'
+import About from './pages/about'
+import Portfolio from './pages/portfolio'
+import FoOhFo from './pages/404'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Index/>
-  </React.StrictMode>,
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Index/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/portfolio" element={<Portfolio/>} />
+        <Route path="*" element={<FoOhFo/>} />
+      </Routes>
+    </BrowserRouter>,
   document.getElementById('root')
 )

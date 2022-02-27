@@ -19,7 +19,7 @@ const desktopNav = [
 
 const Nav = () => {
   return (
-    <nav className="space-x-6 text-center w-full md:w-auto mx-auto p-3 bg-black bg-opacity-40 backdrop-filter backdrop-blur-sm md:rounded-b-md rounded-none">
+    <nav className="space-x-6 text-center w-full md:w-auto mx-auto p-3">
             {desktopNav.map((da, index) => 
                 <NavLink
                     key={index}

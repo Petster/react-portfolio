@@ -24,7 +24,7 @@ const Layout = ({ children, title, index }) => {
                 {children}
             </section>
             <footer className="md:rounded-t-md rounded-none w-full space-x-6 text-center mx-auto p-2">
-                <p className="text-white font-bold">Jason Palmeri | &copy; {new Date().getFullYear()}</p>
+                <p className="text-white">Jason Palmeri | &copy; {new Date().getFullYear()}</p>
             </footer>
     </main>
   )

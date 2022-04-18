@@ -7,6 +7,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import Index from './pages/index'
 import About from './pages/about'
 import Portfolio from './pages/portfolio'
+import Connect from './pages/contact'
 import FoOhFo from './pages/404'
 
 ReactDOM.render(
@@ -15,6 +16,7 @@ ReactDOM.render(
         <Route path="/" element={<Index/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/portfolio" element={<Portfolio/>} />
+        <Route path="/connect" element={<Connect/>} />
         <Route path="*" element={<FoOhFo/>} />
       </Routes>
     </BrowserRouter>,

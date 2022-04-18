@@ -14,6 +14,10 @@ const desktopNav = [
     {
         display: "Portoflio",
         link: "/portfolio"
+    },
+    {
+        display: "Connect",
+        link: "/connect"
     }
 ]
 

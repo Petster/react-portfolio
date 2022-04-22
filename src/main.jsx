@@ -7,7 +7,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import Index from './pages/index'
 import About from './pages/about'
 import Portfolio from './pages/portfolio'
-import Connect from './pages/contact'
+import Connect from './pages/connect'
 import FoOhFo from './pages/404'
 
 ReactDOM.render(

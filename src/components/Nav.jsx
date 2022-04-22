@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
-
+//on mobile I want the nav to hide and just be the JTP logo in the middle, on click have the menu slide down (only on home page?)
 const desktopNav = [
     {
         display: "Home",

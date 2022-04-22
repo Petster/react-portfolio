@@ -25,9 +25,3 @@ background: linear-gradient(180deg, rgba(152,98,25,1) 0%, rgba(152,92,5,1) 25%, 
     background-color: rgba(116, 115, 115, 0.1);
     box-shadow: 5px 5px 30px rgba(0,0,0,0.4)
 }
-#myface {
-    background-image: url('../img/myface.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}

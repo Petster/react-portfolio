@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 import { Link } from 'react-router-dom'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
-import 'react-lazy-load-image-component/src/effects/blur.css';
+import 'react-lazy-load-image-component/src/effects/black-and-white.css';
 
 import myFace from '../img/myface.jpg'
 
@@ -15,7 +15,7 @@ const about = () => {
         <div className="flex flex-grow">
             <div className="t-bg flex-grow p-3 rounded-none md:rounded-lg text-white">
               <div className="float-right">
-                <LazyLoadImage src={myFace} effect="blur"  className="border border-black shadow-2xl rounded-full h-72 w-72" />
+                <LazyLoadImage placeholderSrc={myFace} effect="black-and-white" src={myFace} className="border border-black shadow-2xl rounded-full h-72 w-72" />
               </div>
               <p className={pStyle}>
               Hey! My name is Jason Palmeri, I'm 21 years old with an Associates Degree in Web Application Development. I am currently enrolled at Bellevue University for their Software Development Bachelors Program and expect to graduate mid 2023.</p>

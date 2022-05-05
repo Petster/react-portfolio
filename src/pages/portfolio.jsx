@@ -5,6 +5,7 @@ import WorkCard from '../components/workCard';
 import { skillsList } from '../data/skills';
 import SkillCard from '../components/SkillCard'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Link } from 'react-router-dom'
 
 const portfolio = () => {
   return (

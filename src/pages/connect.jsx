@@ -105,7 +105,7 @@ const submitForm = (e) => {
 
   return (
     <Layout title="Jason Palmeri | Connect">
-      <section className="flex flex-grow items-center justify-center bg-port sm:p-5">
+      <section className="flex flex-grow items-center justify-center bg-port sm:p-2">
         <div className="t-bg rounded-md w-full mx-auto p-5">
           <div className="flex flex-col-reverse lg:flex-row">
             <div className="flex-grow">

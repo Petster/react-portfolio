@@ -17,7 +17,7 @@ export const workData = [
     },
     {
         "title": "Personal Project",
-        "desc": "My friends and I have been planning on going to Japan for a trip and I created this website for us to be able to share trip ideas and such. The website turned into a really cool pet project of mine and I've built out lots of features for this website that are currently private including: <br> School To-Do List <br> Online Notepad <br> and a few other things <br><br> you can sign up on the website now and as I learn more web design and development I hope to publish this website for others to use <br><br><strong>NOTE:</strong> the website will be bare unless you have special permission to view features of the site, if you would like to see some of these features please feel free to <a class='hover:underline text-blue-500' href='/connect'>contact</a> me.",
+        "desc": "My friends and I have been planning on going to Japan for a trip and I created this website for us to be able to share trip ideas and such. The website turned into a really cool pet project of mine and I've built out lots of features for this website that are currently private including: <br> School To-Do List <br> Online Notepad <br> and a few other tools that I use on a daily basis <br><br> you can sign up on the website now and as I learn more web design and development I hope to publish this website for others to use <br><br><strong>NOTE:</strong> the website will be bare unless you have special permission to view features of the site, if you would like to see some of these features please feel free to <a class='hover:underline text-blue-500' href='/connect'>contact</a> me.",
         "img_url": japan,
         "url": "https://japan.petstergaming.com/"
     },

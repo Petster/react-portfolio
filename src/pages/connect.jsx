@@ -4,7 +4,7 @@ import emailjs from 'emailjs-com'
 import Swal from 'sweetalert2/dist/sweetalert2.js'
 import 'sweetalert2/src/sweetalert2.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter, faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faGithub, faLinkedin, faDiscord} from '@fortawesome/free-brands-svg-icons'
 
 const socialLinks = [
   {
@@ -21,7 +21,7 @@ const socialLinks = [
     "icon": faLinkedin,
     "name": "Jason T Palmeri",
     "url": "https://linkedin.com/in/jasontpalmeri",
-  },
+  }
 ]
 
 const connect = () => {
@@ -155,6 +155,12 @@ const submitForm = (e) => {
                     </div>
                   </a>
                 )}
+                <div className="w-full rounded-md p-4">
+                    <div className="flex flex-row rounded-md bg-black bg-opacity-40 backdrop-filter backdrop-blur-sm hover:shadow-xl border-2 border-transparent hover:border-white">
+                      <div className="p-2"><FontAwesomeIcon className="fa-2x md:fa-3x text-white hover:drop-shadow-lg" icon={faDiscord} /></div>
+                      <div className="p-2 uppercase tracking-wid text-white font-bold flex-grow text-center">Petster#0012</div>
+                    </div>
+                  </div>
               </div>
             </div>
           </div>

@@ -41,7 +41,7 @@ const index = () => {
                   {socialLinks.map((da, index) => 
                     <div key={index}>
                       <a href={da.url} target="_blank" rel="noreferrer">
-                        <span class="sr-only">{da.url}</span><FontAwesomeIcon className="fa-2x md:fa-3x text-white hover-socials hover:drop-shadow-lg" icon={da.icon} />
+                        <span className="sr-only">{da.url}</span><FontAwesomeIcon className="fa-2x md:fa-3x text-white hover-socials hover:drop-shadow-lg" icon={da.icon} />
                       </a>
                     </div>
                   )}

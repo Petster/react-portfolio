@@ -21,7 +21,7 @@ const desktopNav = [
     }
 ];
 
-const Nav = () => {
+const Nav = ({ autoshow }) => {
 
     const [menu, setMenu] = useState(false);
 
@@ -37,7 +37,7 @@ const Nav = () => {
         <div className="w-full">
             <nav className="lg:hidden text-center w-full md:w-auto mx-auto">
                 <img alt="JTP Logo" className={`mx-auto pt-2 pb-2 cursor-pointer`} onClick={() => setMenu(!menu)} width={60} src={Logo} />
-                <div className={`w-full z-50  ${menu ? "content-show changeHeight" : "content-hide changeHeightR"}`}>
+                <div className={`w-full z-50  ${autoshow ? "content-show" : menu ? "content-show changeHeight" : "content-hide changeHeightR"}`}>
                     <div className={`space-x-6 text-center w-full md:w-auto mx-auto p-3`}>
                         {desktopNav.map((da, index) => 
                             <NavLink

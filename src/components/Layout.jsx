@@ -18,7 +18,7 @@ const Layout = ({ children, title, index }) => {
                 <meta name="keywords" content="Petster, Petstergaming, PetsterGaming, Petster12, HTML, CSS, JavaScript, PHP, JQuery, Portfolio, Jason Palmeri, Jason, Palmeri, Guavus, Nashua Community College, Graduate, Associates Degree, Associtates, Web Development Application, Web Development, Website Developer, Web Developer, Fiverr, Work, Looking for Work, Front-End Developer, Back-End Developer, Front-End Web Developer, Back-End Web Developer, Gaming, Games, Gamer, LinkedIn, Linkedin, Junior Web Developer, Customer Success"/>
             </Helmet>
             <header className="flex justify-between content-center flex-row">
-                <Nav/>
+                {index ? <Nav autoshow={true} /> : <Nav autoshow={false} />}
             </header>
             <section className="flex flex-grow">
                 {children}

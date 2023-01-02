@@ -6,9 +6,40 @@ import webtwoh from '../img/work_thumb/5.jpg'
 import php from '../img/work_thumb/6.jpg'
 import webone from '../img/work_thumb/7.jpg'
 import japan from '../img/work_thumb/8.jpg'
+import provisio from '../img/work_thumb/provisio.png'
+import pgapp from '../img/work_thumb/app.petstergaming.png'
 import { Link } from 'react-router-dom'
 
 export const workData = [
+    {
+        "title": "Java Capstone Project - Provisio",
+        "desc": `For our Java Capstone project, we were grouped into 3 teams to create a fully functional Online Hotel reservation website/app. I was voted to be the team leader and led the team to a 100% final product.<br/>
+        <br/>
+        The project was built using with some help from gradle and docker, with front-end components being build with JSP's and Tailwind
+        <br/><br/>
+        The source code, and all revision history can be seen at <a class='hover:underline text-blue-500' href='https://github.com/Petster/Provisio'>Github</a> and you can download and boot it up on your local machine.
+        <br/><br/>
+        <strong>Note:</strong> link brings you to the final presentation video
+        `,
+        "img_url": provisio,
+        "url": "https://docs.google.com/presentation/d/1vfTYPYQ3zSm14WaSFn6HGA-hQC9taKNPHFFF__OQ4AA/edit?usp=sharing"
+    },
+    {
+        "title": "Petster Gaming App (Personal Project Reborn)",
+        "desc": `During my classwork at Bellevue, I wanted to learn some Javascript stack, so I picked up the MERN stack<br/><br/>
+
+        Over the last 2 years, I've been working on my personal project, to the average person, its just a blank website, but with admin rights its kind of like a notepad/bookmark/reminder app for myself. What I've done here is made it public. Anyone can make an account and use the functions that I've been using for a little while now. <br/><br/>
+
+        The site features:<br/>
+        A notepad block, for messages or reminders that you can take anywhere<br/>
+        A shortcut system, where you can create links with custom icons (font awesome) and allows for expandable shortcuts<br/>
+        A reminder system, add reminders with due dates, in specific categories<br/><br/>
+
+        The site is still super in progress, and as I continue my education I hope to make it an app that is useful to everyone!
+        `,
+        "img_url": pgapp,
+        "url": "https://app.petstergaming.com"
+    },
     {
         "title": "Guavus Zendesk Customer Success Center",
         "desc": "Worked with the Customer Success Team to develop their Zendesk based Web Portal",
@@ -32,8 +63,8 @@ export const workData = [
         "desc": `This is my final project at Nashua Community College for the Capstone Web Development Course. The project was to read a CSV file, grab data, and output the important information in CSV format. This project allowed me to take a deeper dive into Javascript and its plugins.
 
         <strong>NOTE</strong>: You will not be able to fully utilize this project without key CSV files that cannnot be given out.
-        
-        View the Code <a href="https://bitbucket.org/nolocap/nolocap.bitbucket.io/src/master/" target="_blank">Here</a>`,
+
+        View the Code <a class='hover:underline text-blue-500' target='_blank' href="https://bitbucket.org/nolocap/nolocap.bitbucket.io/src/master/" target="_blank">Here</a>`,
         "img_url": nolo,
         "url": "https://nolocap.bitbucket.io/"
     },

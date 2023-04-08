@@ -1,6 +1,24 @@
-import { faHtml5, faCss3, faJs, faPhp, faBuffer, faAws, faBootstrap, faUikit } from '@fortawesome/free-brands-svg-icons'
-import { faVideo, faMicrophone, faPencilRuler, faGamepad } from '@fortawesome/free-solid-svg-icons'
-import { faJava, faPython, faReact, faCuttlefish, faGitAlt } from '@fortawesome/free-brands-svg-icons'
+import {
+  faHtml5,
+  faCss3,
+  faJs,
+  faPhp,
+  faBuffer,
+  faAws,
+  faBootstrap,
+  faUikit,
+  faNodeJs
+} from '@fortawesome/free-brands-svg-icons'
+import {
+  faVideo,
+  faMicrophone,
+  faPencilRuler,
+  faGamepad,
+  faRobot,
+  faDatabase,
+  faServer
+} from '@fortawesome/free-solid-svg-icons'
+import { faJava, faPython, faReact, faGitAlt } from '@fortawesome/free-brands-svg-icons'
 
 export const skillsList = {
     "Programming Languages": [
@@ -27,6 +45,12 @@ export const skillsList = {
       },
       {
         "type": "Web",
+        "name": "Python",
+        "icon": faPython,
+        "link": "",
+      },
+      {
+        "type": "Web",
         "name": "MySQL",
         "icon": faBuffer,
       },
@@ -37,38 +61,44 @@ export const skillsList = {
       },
       {
         "type": "Web",
-        "name": "AWS",
-        "icon": faAws,
-      },
-      {
-        "type": "Web",
-        "name": "Bootstrap",
-        "icon": faBootstrap,
-        "link": "",
-      },
-      {
-        "type": "Web",
-        "name": "UIKit",
-        "icon": faUikit,
-        "link": "",
-      },
-      {
-        "type": "Programming",
         "name": "Java",
         "icon": faJava,
         "link": "",
       },
       {
-        "type": "Programming",
-        "name": "C++",
-        "icon": faCuttlefish,
+        "type": "Web",
+        "name": "Node.js",
+        "icon": faNodeJs,
         "link": "",
       },
       {
         "type": "Programming",
-        "name": "Python",
-        "icon": faPython,
+        "name": "Selenium",
+        "icon": faRobot,
         "link": "",
+      },
+      {
+        "type": "Programming",
+        "name": "Tailwind",
+        "icon": faCss3,
+        "link": "",
+      },
+      {
+        "type": "Programming",
+        "name": "MongoDB",
+        "icon": faDatabase,
+        "link": "",
+      },
+      {
+        "type": "Programming",
+        "name": "Express.js",
+        "icon": faServer,
+        "link": "",
+      },
+      {
+        "type": "Programming",
+        "name": "AWS",
+        "icon": faAws,
       },
       {
         "type": "Programming",
@@ -80,6 +110,18 @@ export const skillsList = {
         "type": "Programming",
         "name": "Git",
         "icon": faGitAlt,
+        "link": "",
+      },
+      {
+        "type": "Programming",
+        "name": "Bootstrap",
+        "icon": faBootstrap,
+        "link": "",
+      },
+      {
+        "type": "Programming",
+        "name": "UIKit",
+        "icon": faUikit,
         "link": "",
       },
     ],
@@ -97,6 +139,11 @@ export const skillsList = {
       {
         "type": "Video Production",
         "name": "Adobe Premiere Pro",
+        "icon": faVideo,
+      },
+      {
+        "type": "Video Production",
+        "name": "OBS",
         "icon": faVideo,
       },
       {

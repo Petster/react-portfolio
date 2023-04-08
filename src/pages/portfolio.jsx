@@ -14,22 +14,23 @@ const portfolio = () => {
 
         <div className="lg:masonry-2-col xl:masonry-3-col p-2">
           {workData.map((da, index) => 
-            <WorkCard key={index} name={da.title} desc={da.desc} url={da.url} img={da.img_url} />
+            da.url !== "#" ? (<WorkCard key={index} name={da.title} desc={da.desc} url={da.url} img={da.img_url} />) : (<WorkCard key={index} name={da.title} desc={da.desc} url={false} img={da.img_url} />)
           )}
         </div>
         
         <section className="p-4 text-white rounded-none sm:rounded-md">
         <div className="flex items-center justify-center content-center">
           <div>
-            <h1 className="text-4xl">Programming Languages</h1>
+            <h1 className="text-4xl">Programming</h1>
           </div>
           <div className="flex-grow"></div>
         </div>
         <hr/>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 p-5">
-            {skillsList['Programming Languages'].map((da, index) => {
-              return (<SkillCard bg="bg-red-500 code" name={da.name} key={index}><FontAwesomeIcon className="fa-2x  pr-2" icon={da.icon}></FontAwesomeIcon></SkillCard>)
-            })}
+            {skillsList['Programming Languages'].map((da, index) =>
+              da.type === "Web" ? (<SkillCard bg="bg-red-500 code" name={da.name} key={index}><FontAwesomeIcon className="fa-2x  pr-2" icon={da.icon}></FontAwesomeIcon></SkillCard>)
+                  : (<SkillCard bg="bg-blue-500 code" name={da.name} key={index}><FontAwesomeIcon className="fa-2x  pr-2" icon={da.icon}></FontAwesomeIcon></SkillCard>)
+            )}
         </div>
 
         <div className="flex items-center justify-center content-center">

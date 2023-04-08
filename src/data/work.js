@@ -25,7 +25,7 @@ export const workData = [
         "url": "https://docs.google.com/presentation/d/1vfTYPYQ3zSm14WaSFn6HGA-hQC9taKNPHFFF__OQ4AA/edit?usp=sharing"
     },
     {
-        "title": "Petster Gaming App (Personal Project Reborn)",
+        "title": "My App (MERN Stack)",
         "desc": `During my classwork at Bellevue, I wanted to learn some Javascript stack, so I picked up the MERN stack<br/><br/>
 
         Over the last 2 years, I've been working on my personal project, to the average person, its just a blank website, but with admin rights its kind of like a notepad/bookmark/reminder app for myself. What I've done here is made it public. Anyone can make an account and use the functions that I've been using for a little while now. <br/><br/>
@@ -39,18 +39,6 @@ export const workData = [
         `,
         "img_url": pgapp,
         "url": "https://app.petstergaming.com"
-    },
-    {
-        "title": "Guavus Zendesk Customer Success Center",
-        "desc": "Worked with the Customer Success Team to develop their Zendesk based Web Portal",
-        "img_url": guavus,
-        "url": "https://guavus.zendesk.com/hc/en-us"
-    },
-    {
-        "title": "Personal Project",
-        "desc": "My friends and I have been planning on going to Japan for a trip and I created this website for us to be able to share trip ideas and such. The website turned into a really cool pet project of mine and I've built out lots of features for this website that are currently private including: <br> School To-Do List <br> Online Notepad <br> and a few other tools that I use on a daily basis <br><br> you can sign up on the website now and as I learn more web design and development I hope to publish this website for others to use <br><br><strong>NOTE:</strong> the website will be bare unless you have special permission to view features of the site, if you would like to see some of these features please feel free to <a class='hover:underline text-blue-500' href='/connect'>contact</a> me.",
-        "img_url": japan,
-        "url": "https://japan.petstergaming.com/"
     },
     {
         "title": "Coating Systems Group Website Management",
@@ -78,7 +66,7 @@ export const workData = [
         "title": "WEB200 Biosite Project",
         "desc": "Tasked with creating a biography website, I created this simple 3 page layout using bootstrap, and some custom JavaScript for the hobby page.",
         "img_url": webtwoh,
-        "url": "https://petster.github.io/Bellevue/WEB200/BioSiteProject/"
+        "url": "https://petster.github.io/Bellevue/WEB200%20-%20Fundamentals%20of%20Web%20Dev/BioSiteProject/"
     },
     {
         "title": "PHP Final/Semester Work",
@@ -91,5 +79,17 @@ export const workData = [
         "desc": "Collage Web Development 2 Final Project, Basically a draft of a storefront webpage to buy trading card game cards. The project was to create whatever we wanted, and had to have certain aspects, like mobile ready scaling.",
         "img_url": webone,
         "url": "https://petster.github.io/Web2Final/"
+    },
+    {
+        "title": "Guavus Zendesk Customer Success Center (Offline)",
+        "desc": "Worked with the Customer Success Team to develop their Zendesk based Web Portal",
+        "img_url": guavus,
+        "url": "#"
+    },
+    {
+        "title": "My App (LAMP Stack) (Offline)",
+        "desc": "My friends and I have been planning on going to Japan for a trip and I created this website for us to be able to share trip ideas and such. The website turned into a really cool pet project of mine and I've built out lots of features for this website that are currently private including: <br> School To-Do List <br> Online Notepad <br> and a few other tools that I use on a daily basis <br><br> you can sign up on the website now and as I learn more web design and development I hope to publish this website for others to use <br><br><strong>NOTE:</strong> the website will be bare unless you have special permission to view features of the site, if you would like to see some of these features please feel free to <a class='hover:underline text-blue-500' href='/connect'>contact</a> me.",
+        "img_url": japan,
+        "url": "#"
     },
 ];

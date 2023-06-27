@@ -8,9 +8,19 @@ import webone from '../img/work_thumb/7.jpg'
 import japan from '../img/work_thumb/8.jpg'
 import provisio from '../img/work_thumb/provisio.png'
 import pgapp from '../img/work_thumb/app.petstergaming.png'
+import bellevue from '../img/work_thumb/bellevuework.png'
 import { Link } from 'react-router-dom'
 
 export const workData = [
+    {
+        "title": "Software Development Bachelors Program",
+        "desc": `Within this large repository you will find all of my bachelors program work, from Java to JavaScript.
+        <br/>
+        Every project and assignment can be found in here, easily accessible via the homepage
+        <br/>`,
+        "img_url": bellevue,
+        "url": "https://petster.github.io/jpalmeri-bellevue/"
+    },
     {
         "title": "Java Capstone Project - Provisio",
         "desc": `For our Java Capstone project, we were grouped into 3 teams to create a fully functional Online Hotel reservation website/app. I was voted to be the team leader and led the team to a 100% final product.<br/>

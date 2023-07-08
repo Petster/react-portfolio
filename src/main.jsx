@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './css/index.css'
-import { BrowserRouter } from 'react-router-dom'
+import {HashRouter} from 'react-router-dom'
 import { Routes, Route, Link } from 'react-router-dom'
 
 import Index from './pages/index'
@@ -11,7 +11,7 @@ import Connect from './pages/connect'
 import FoOhFo from './pages/404'
 
 ReactDOM.render(
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Index/>} />
         <Route path="/about" element={<About/>} />
@@ -19,6 +19,6 @@ ReactDOM.render(
         <Route path="/connect" element={<Connect/>} />
         <Route path="*" element={<FoOhFo/>} />
       </Routes>
-    </BrowserRouter>,
+    </HashRouter>,
   document.getElementById('root')
 )

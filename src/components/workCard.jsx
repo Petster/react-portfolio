@@ -5,7 +5,7 @@ import 'react-lazy-load-image-component/src/effects/black-and-white.css';
 const WorkCard = ({ name, desc, url, img }) => {
   return (
     <div className="break-inside">
-        <div className="bg-white shadow-md border border-gray-200 mb-1">
+        <div className="bg-white shadow-md border border-black border-2 mb-1">
             { url !== false ? (<a rel="noreferrer" target="_blank" href={url}>
                     <span className="sr-only">link to {name}</span><LazyLoadImage placeholderSrc={img} effect="black-and-white" src={img} />
                 </a>)

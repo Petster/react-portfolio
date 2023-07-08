@@ -5,11 +5,11 @@ import jsfinal from '../img/work_thumb/4.jpg'
 import webtwoh from '../img/work_thumb/5.jpg'
 import php from '../img/work_thumb/6.jpg'
 import webone from '../img/work_thumb/7.jpg'
-import japan from '../img/work_thumb/8.jpg'
 import provisio from '../img/work_thumb/provisio.png'
 import pgapp from '../img/work_thumb/app.petstergaming.png'
 import bellevue from '../img/work_thumb/bellevuework.png'
-import { Link } from 'react-router-dom'
+import soundsofsilence from '../img/work_thumb/soundsofsilence.png'
+import atoa from '../img/work_thumb/atoa.png'
 
 export const workData = [
     {
@@ -51,12 +51,6 @@ export const workData = [
         "url": "https://app.petstergaming.com"
     },
     {
-        "title": "Coating Systems Group Website Management",
-        "desc": "Tasked with helping keep the WordPress hosted site up to date, as well as providing help with updating the sites content",
-        "img_url": csi,
-        "url": "http://www.coatingsystemsgroup.com/"
-    },
-    {
         "title": "Nashua Community College NoLo Finder",
         "desc": `This is my final project at Nashua Community College for the Capstone Web Development Course. The project was to read a CSV file, grab data, and output the important information in CSV format. This project allowed me to take a deeper dive into Javascript and its plugins.
 
@@ -79,7 +73,7 @@ export const workData = [
         "url": "https://petster.github.io/Bellevue/WEB200%20-%20Fundamentals%20of%20Web%20Dev/BioSiteProject/"
     },
     {
-        "title": "PHP Final/Semester Work",
+        "title": "PHP Final/Semester Work (Offline)",
         "desc": "While learning PHP the students had a server to play around in, I took a little extra time to make my webpage easy to access the projects. The final for the class was to create a working Contact form, this was also my first peek into mySQL and creating an account like system with the PHP",
         "img_url": php,
         "url": "#"
@@ -90,16 +84,49 @@ export const workData = [
         "img_url": webone,
         "url": "https://petster.github.io/Web2Final/"
     },
+];
+
+export const profWork = [
+    {
+        "title": "Artists Talk on Art NYC",
+        "desc": `For my final class at Bellevue University, we are tasked with giving back to the community via the Kirkpatrick Program. We are asked to find a place to volunteer at for the duration of the class and write reports on it (You can find my reports in my Bellevue University Repository)
+            <br/>
+            After searching for a place to volunteer at locally, I was unsuccessful and pursued an online volunteer gig, somewhere where I could use my skills. After talking to the director of Artists Talk on Art, Douglas Sheer, I was asked to join their team as the website manager.
+            
+            <br/>
+            I had an amazing time at AToA, meeting lots of people and helping keep their website up to date with current events. I had such a great time that I was asked to stay as their website manager even after my Kirkpatrick program ended.
+            
+            <br/>
+            <br/>
+            Artists Talk on Art is currently on break, getting ready to celebrate 50 years, but check back soon!
+        `,
+        "img_url": atoa,
+        "url": "http://www.coatingsystemsgroup.com/"
+    },
+    {
+        "title": "Coating Systems Group Website Management",
+        "desc": "Tasked with helping keep the WordPress hosted site up to date, as well as providing help with updating the sites content",
+        "img_url": csi,
+        "url": "http://www.coatingsystemsgroup.com/"
+    },
+    {
+        "title": "Sounds Of Silence Redesign",
+        "desc": `I was asked by a previous professor to help a friend redesign their website
+        
+        <br/>
+
+            The redesign involved finding a new theme on WordPress, and integrating some custom CSS and JavaScript to get a clean look
+
+        <br/>
+
+        I was also tasked with helping update several blog posts that were using a much older version of WordPress, making sure every post had a thumbnail.`,
+        "img_url": soundsofsilence,
+        "url": "http://www.coatingsystemsgroup.com/"
+    },
     {
         "title": "Guavus Zendesk Customer Success Center (Offline)",
         "desc": "Worked with the Customer Success Team to develop their Zendesk based Web Portal",
         "img_url": guavus,
         "url": "#"
     },
-    {
-        "title": "My App (LAMP Stack) (Offline)",
-        "desc": "My friends and I have been planning on going to Japan for a trip and I created this website for us to be able to share trip ideas and such. The website turned into a really cool pet project of mine and I've built out lots of features for this website that are currently private including: <br> School To-Do List <br> Online Notepad <br> and a few other tools that I use on a daily basis <br><br> you can sign up on the website now and as I learn more web design and development I hope to publish this website for others to use <br><br><strong>NOTE:</strong> the website will be bare unless you have special permission to view features of the site, if you would like to see some of these features please feel free to <a class='hover:underline text-blue-500' href='/connect'>contact</a> me.",
-        "img_url": japan,
-        "url": "#"
-    },
-];
+]

@@ -70,7 +70,7 @@ export const workData = [
         "title": "WEB200 Biosite Project",
         "desc": "Tasked with creating a biography website, I created this simple 3 page layout using bootstrap, and some custom JavaScript for the hobby page.",
         "img_url": webtwoh,
-        "url": "https://petster.github.io/Bellevue/WEB200%20-%20Fundamentals%20of%20Web%20Dev/BioSiteProject/"
+        "url": "https://petster.github.io/jpalmeri-bellevue/WEB200%20-%20Fundamentals%20of%20Web%20Dev/BioSiteProject/"
     },
     {
         "title": "PHP Final/Semester Work (Offline)",
@@ -91,17 +91,19 @@ export const profWork = [
         "title": "Artists Talk on Art NYC",
         "desc": `For my final class at Bellevue University, we are tasked with giving back to the community via the Kirkpatrick Program. We are asked to find a place to volunteer at for the duration of the class and write reports on it (You can find my reports in my Bellevue University Repository)
             <br/>
+            <br/>
             After searching for a place to volunteer at locally, I was unsuccessful and pursued an online volunteer gig, somewhere where I could use my skills. After talking to the director of Artists Talk on Art, Douglas Sheer, I was asked to join their team as the website manager.
-            
+
+            <br/>
             <br/>
             I had an amazing time at AToA, meeting lots of people and helping keep their website up to date with current events. I had such a great time that I was asked to stay as their website manager even after my Kirkpatrick program ended.
-            
+
             <br/>
             <br/>
             Artists Talk on Art is currently on break, getting ready to celebrate 50 years, but check back soon!
         `,
         "img_url": atoa,
-        "url": "http://www.coatingsystemsgroup.com/"
+        "url": "https://www.atoanyc.org/"
     },
     {
         "title": "Coating Systems Group Website Management",
@@ -111,17 +113,19 @@ export const profWork = [
     },
     {
         "title": "Sounds Of Silence Redesign",
-        "desc": `I was asked by a previous professor to help a friend redesign their website
-        
+        "desc": `I was asked to help redesign the Sounds of Silence website
+
+        <br/>
         <br/>
 
             The redesign involved finding a new theme on WordPress, and integrating some custom CSS and JavaScript to get a clean look
 
         <br/>
+        <br/>
 
         I was also tasked with helping update several blog posts that were using a much older version of WordPress, making sure every post had a thumbnail.`,
         "img_url": soundsofsilence,
-        "url": "http://www.coatingsystemsgroup.com/"
+        "url": "https://www.soundsofsilence.com/"
     },
     {
         "title": "Guavus Zendesk Customer Success Center (Offline)",
